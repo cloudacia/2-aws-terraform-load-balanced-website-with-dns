@@ -14,7 +14,7 @@ Clone the repository locally in your system:
 
 Deploy the code in your AWS account with Terraform
 
-`cd terraform-lab01`
+`cd terraform-lab02`
 
 
 `terraform init`
