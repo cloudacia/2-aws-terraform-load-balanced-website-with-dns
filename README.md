@@ -35,6 +35,7 @@ Deploy the code in your AWS account with Terraform
 |-- variables.tf          # Variables
 |-- iam.tf                # roles and policies
 |-- storage.tf            # S3 buckets
+|-- dns.tf                # DNS setting for a domain name
 |-- output.tf             # Output values
 |-- script.sh             # Initialization script
 |-- /ssh_keys             # SSH public key
