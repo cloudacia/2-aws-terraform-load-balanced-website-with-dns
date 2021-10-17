@@ -67,3 +67,9 @@ variable "instance_type" {
   type    = string
   default = "t2.micro"
 }
+
+# DEMO DOMAIN NAME
+variable "demo_domain_name" {
+  type    = string
+  default = "coderepublik.net."
+}
