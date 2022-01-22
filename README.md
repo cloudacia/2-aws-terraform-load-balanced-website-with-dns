@@ -25,13 +25,13 @@ Terraform manages the deployment.
 * 1 x ASG
 * 1 x Launch Configuration
 * 4 x EC2
-* 2 x Security Groups
+* 3 x Security Groups
 * 2 X CloudWatch Alarms
 * 1 x S3 bucket
 * 1 x IAM role
 * 1 x AIM policy
 * 1 x Route53 DNS A record
-
+* 1 x Bastion host
 **Getting started**
 
 Clone the repository locally in your system:
