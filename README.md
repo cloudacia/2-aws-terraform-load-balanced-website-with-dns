@@ -16,21 +16,21 @@ Terraform manages the deployment.
 
 **AWS resources created**
 
-1 x VPC
-2 x Private subnets
-2 x Public subnets
-2 x NAT Gateways
-1 x Internet Gateway
-1 x ALB
-1 x ASG
-1 x Launch Configuration
-4 x EC2
-2 x Security Groups
-2 X CloudWatch Alarms
-1 x S3 bucket
-1 x IAM role
-1 x AIM policy
-1 x Route53 DNS A record
+* 1 x VPC
+* 2 x Private subnets
+* 2 x Public subnets
+* 2 x NAT Gateways
+* 1 x Internet Gateway
+* 1 x ALB
+* 1 x ASG
+* 1 x Launch Configuration
+* 4 x EC2
+* 2 x Security Groups
+* 2 X CloudWatch Alarms
+* 1 x S3 bucket
+* 1 x IAM role
+* 1 x AIM policy
+* 1 x Route53 DNS A record
 
 **Getting started**
 
