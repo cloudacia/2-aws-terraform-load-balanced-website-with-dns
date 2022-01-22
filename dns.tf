@@ -1,6 +1,6 @@
 # GET DATA FROM AN AWS ROUTE53 ZONE
 data "aws_route53_zone" "selected" {
-  name         = var.demo_domain_name
+  name         = var.domain_name
   private_zone = false
 }
 

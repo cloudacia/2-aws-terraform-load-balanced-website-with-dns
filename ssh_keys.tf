@@ -2,5 +2,5 @@
 # Public Key for accessing EC2 instances
 resource "aws_key_pair" "ec2_public_key" {
   key_name   = "ec2_public_key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDn36UrPUFK1k7PPKXR6VgxjwWoryEjPCozPHl5qoHGloDW9fGhk2KtvXQH8qsah7tzqGbVGcyqpug3EiX2nCu+AqcvWi++0QXAE2vhNctOsoq98yGq30h4bXMPvtJzVzA7Za8wPA2+3fu4F/IYGpVMB3UNwd7gFwJk/+Uaqx2AeWdcMI+rOgn/69JfJ779CYSSiwsOyRcSx8dadjXwnp7//emV56C1cO08Ijw2kUnzieB7jivAEo68b8czlrgKVWYO09/5IidnUTaePK2xfMRhYB8ykc7059k190BvRzfkQD6MaV+HI/H+BmAR0KY0LK8MenVwcUtAiz7Dyc1q2YUIiu94XlQ4Pm+Qgmike4fgiYczsdioLslBr1dXKxyRnzkPq6WUL6FAYCt810QcZ2F9zA7uVf446revQvcvrFRTDMcSTlpruUnN6AFpmWfbPiGHm3q+9Xhe40SsaxVM1I30lwKD20TZO5TqMvqfOHvrTHh7K9aBHWRqJYyLPAuNwvs="
+  public_key = var.ec2_ssh_key
 }

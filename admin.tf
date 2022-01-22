@@ -32,7 +32,7 @@ resource "aws_security_group" "administration" {
 
 # AWS INSTANCE TO BE USED AS BASTION HOST
 resource "aws_instance" "bastion" {
-  ami           = var.aws_amis[var.aws_region]
+  ami           = var.aws_amis
   instance_type = "t2.micro"
   key_name      = aws_key_pair.ec2_public_key.key_name
   vpc_security_group_ids = [
