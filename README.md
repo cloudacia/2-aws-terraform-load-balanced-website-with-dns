@@ -32,6 +32,7 @@ Terraform manages the deployment.
 * 1 x AIM policy
 * 1 x Route53 DNS A record
 * 1 x Bastion host
+
 **Getting started**
 
 Clone the repository locally in your system:
